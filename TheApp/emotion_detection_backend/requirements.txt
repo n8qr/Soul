@@ -1,0 +1,8 @@
+Flask
+tensorflow
+opencv-python-headless
+numpy
+sounddevice
+librosa
+joblib
+openai
