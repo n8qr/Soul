@@ -23,7 +23,7 @@ app = Flask(__name__, static_folder='../emotion-app/build', static_url_path='/')
 CORS(app)
 
 # Set up OpenAI API key
-openai.api_key = 'sk-proj-34rNKblxfxq7dFX0vuUAT3BlbkFJpnlzHScBFcsx0YSiaoIP'  # Replace with your actual API key
+openai.api_key = ''  # Replace with your actual API key
 
 # Load video emotion detection model
 video_model = load_model('Models/emotion_detection_model.h5')
